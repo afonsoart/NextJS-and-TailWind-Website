@@ -1,8 +1,14 @@
 import React from 'react'
+import Contact from '../components/Contact'
+import Hero from '../components/Hero'
 
-export const contact = () => {
+const contact = () => {
   return (
-    <div>contact</div>
+    <div>
+        <Hero heading='Contact' message='Submit the form below for more work and quotes.' />
+        <Contact />
+    </div>
   )
 }
+
 export default contact
